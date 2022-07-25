@@ -1,0 +1,52 @@
+:root {
+  --Green-dark: #006c75;
+  --Green-soft: #82c4bf;
+  --My-white: hsl(195, 50%, 95%);
+  --Salmon-soft: hsl(15, 100%, 91%);
+  --Salmon-dark: hsl(16, 65%, 68%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px #82c4bf solid;
+  border-radius: 10px;
+  padding: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0,108,117,0.72);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0,108,117,0.72);
+  box-shadow: 0px 0px 8px 1px rgba(0,108,117,0.72);
+  
+
+}
+
+.dflexjcac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+}
+
+.logotipo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--Green-dark);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.options img {
+  width: 30px;
+}
