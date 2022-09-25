@@ -112,6 +112,7 @@ nav {
 @media only screen and (max-width: 1100px) {
   .mainOptions {
     border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
   }
 
   .containerMe {

@@ -1,13 +1,26 @@
 
 <section class="container">
+  <div class="menu-flotante">
+    <input type="checkbox" id="btn-plus">
+    <div class="opcionesMenu">
+      <a routerLink="/about">
+        <i class="fa-solid fa-user"></i>
+      </a>
+      <a routerLink="/projects">
+        <i class="fa-solid fa-briefcase"></i>
+      </a>
+      <a href="https://drive.google.com/file/d/14MRJTYl2FkaoXB2qDEwIoFWuASxpx0CN/view?usp=sharing" target="_blank">
+        <i class="fa-solid fa-download"></i>
+      </a>
+    </div>
+    <div class="btn-plus">
+      <label class="label-plus" for="btn-plus">
+        <i class="fa-solid fa-circle-plus"></i>
+      </label>
+    </div>
+  </div>
   <div class="container-main">
     <app-main-options class="main-options"></app-main-options>
     <app-response-options class="response-options"></app-response-options>
   </div>
- <!--  <app-header></app-header>
-  <div class="container-response">
-    
-    
-  </div>
-   -->
 </section>
