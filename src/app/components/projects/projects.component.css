@@ -82,7 +82,7 @@ h4 {
 
 @media only screen and (max-width: 1100px) {
   .container-projects {
-    height: 55%;
+    height: 72%;
     margin-top: 10px;
     row-gap: 10px;
   }
@@ -93,6 +93,7 @@ h4 {
 
   .project {
     width: 100%;
+    min-height: 170px;
   }
 
 }
@@ -101,10 +102,11 @@ h4 {
   .projectsPair {
     padding: 0 10px;
   }
-  
+
   .container-projects {
-    height: 40%;
+    height: 98%;
   }
+  
 }
 
 @media only screen and (max-width: 425px) {

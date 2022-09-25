@@ -151,6 +151,7 @@ ul li i {
   .container-main {
     display: flex;
     flex-direction: column;
+    height: 950px;
   }
 
   .main-options {
@@ -160,17 +161,22 @@ ul li i {
 
   .container {
     height: auto;
-    margin: 50px 0;
-  }
-
-  .container-main {
-    height: 1100px;
+    margin-top: 100px;
   }
 
 }
 
 @media only screen and (max-width: 768px) {
   .container-main {
-    height: 880px;
+    height: 950px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .response-options {
+    width: 85%;
+  }
+
+  .container-main {
+    margin-bottom: 100px;
   }
 }

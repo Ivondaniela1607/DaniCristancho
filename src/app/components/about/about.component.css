@@ -119,3 +119,28 @@
 #iconSass {
   transform: translate(20px, -175px);
 }
+
+@media only screen and (max-width: 1100px) { 
+  .about {
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .container-about {
+    text-align: center;
+    align-items: center;
+  }
+
+  .skills {
+    height: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+  .container-about {
+    height: 60%;
+  }
+}
