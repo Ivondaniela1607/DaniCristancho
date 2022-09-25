@@ -1,0 +1,74 @@
+:root {
+  --Green-dark: rgb(0, 108, 117);
+  --letra-color: rgb(0, 54, 54);
+  --Green-soft: rgb(130, 196, 191);
+  --My-white: rgb(236, 245, 249);
+  --Salmon-soft: rgb(255, 221, 209);
+  --Salmon-dark: rgb(226, 149, 120);
+  --Lila-dark: rgb(139, 107, 255);
+  --Lila-Soft: rgb(187, 166, 255);
+  --bkg-color: #ffffff;
+  --shadow-color: rgb(127, 127, 127);
+  --red: #ff0000;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.responseOptions {
+  height: 85%;
+}
+
+.containerMenu {
+  margin-top: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.optionMenu {
+  color: var(--Green-dark);
+  font-weight: 700;
+}
+
+
+.menu a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.download {
+  color: var(--Green-soft);
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1100px) {
+  .responseOptions {
+    height: 1200px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .containerMenu {
+    display: none;
+  }
+
+  .responseOptions {
+    height: 80%;
+  }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+  .responseOptions {
+    width: 100%;
+  }
+}

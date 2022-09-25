@@ -1,24 +1,22 @@
-:root {
-  --Green-dark: #006c75;
-  --Green-soft: #82c4bf;
+/* :root {
+  --Green-dark: rgb(0, 108, 117);
+  --Green-soft: rgb(130, 196, 191);
   --My-white: hsl(195, 50%, 95%);
   --Salmon-soft: hsl(15, 100%, 91%);
   --Salmon-dark: hsl(16, 65%, 68%);
 }
+ */
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-  border: 1px #82c4bf solid;
-  border-radius: 10px;
-  padding: 5px;
+
+/* header.dark-theme {
+  border: 1px var(--shadow-color) solid;
+} */
+
+.header:hover {
   -webkit-box-shadow: 0px 0px 8px 1px rgba(0,108,117,0.72);
   -moz-box-shadow: 0px 0px 8px 1px rgba(0,108,117,0.72);
   box-shadow: 0px 0px 8px 1px rgba(0,108,117,0.72);
-  
-
+  transition: .5s;
 }
 
 .dflexjcac {
@@ -34,8 +32,7 @@
 .logotipo {
   display: flex;
   align-items: center;
-  text-decoration: none;
-  color: var(--Green-dark);
+  color: rgb(0, 108, 117);
   font-size: 18px;
   font-weight: 700;
 }
@@ -49,4 +46,9 @@
 
 .options img {
   width: 30px;
+}
+
+.btnDarkTheme{
+  border: none;
+  background-color: transparent;
 }

@@ -1,0 +1,120 @@
+:root {
+  --Green-dark: #183537;
+  --Green-soft: #8bddcf;
+  --My-white: #ffffff;
+  --Salmon-soft: rgb(255, 221, 209);
+  --Salmon-dark: rgb(226, 149, 120);
+  --Lila-dark: rgb(139, 107, 255);
+  --Lila-Soft: rgb(187, 166, 255);
+  --bkg-color: #ffffff;
+  --shadow-color: rgb(127, 127, 127);
+  --yellow: #efd81e;
+  --orange: #dc4a27;
+  --blue: #2373f6;
+  --red: #bd032d;
+  --rosa: #cd649a;
+  --green: #83b906;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 20px; */
+  padding-top: 20px;
+
+}
+
+.mainOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100%;
+  background-color: var(--Green-dark);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.containerMe {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.containerMe i {
+  cursor: pointer;
+}
+
+.containerRedSocial {
+  width: 50%;
+  font-size: 25px;
+  display: flex;
+  color: var(--My-white);
+  justify-content: space-evenly;
+}
+
+.containerRedSocial svg:hover {
+  color: var(--Green-soft);
+}
+
+.containerRedSocial a {
+  color: var(--My-white);
+}
+
+.me {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.frontendDeveloper {
+  color: var(--My-white);
+  font-size: 12px;
+}
+
+nav {
+  width: 100%;
+}
+
+.containerRedSocial i:hover {
+  color: var(--Salmon-dark);
+  transition: .5s;
+}
+
+.containerModoDarkLanguage {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  color: var(--Green-soft);
+  height: 30px;
+  align-items: center;
+}
+
+.containerModoDarkLanguage svg {
+  margin-right: 15px;
+}
+
+
+.sun {
+  fill: var(--yellow);
+}
+
+.language {
+  color: var(--green);
+}
+
+@media only screen and (max-width: 1100px) {
+  .mainOptions {
+    border-top-right-radius: 20px;
+  }
+
+  .containerMe {
+    margin-bottom: 20px;
+  }
+}

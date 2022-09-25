@@ -1,0 +1,114 @@
+:root {
+  --Green-dark: rgb(0, 108, 117);
+  --Green-soft: rgb(130, 196, 191);
+  --My-white: rgb(236, 245, 249);
+  --Salmon-soft: rgb(255, 221, 209);
+  --Salmon-dark: rgb(226, 149, 120);
+  --Lila-dark: rgb(139, 107, 255);
+  --Lila-Soft: rgb(187, 166, 255);
+  --bkg-color: #ffffff;
+
+
+  --shadow-color: rgb(127, 127, 127);
+  --red: #ff0000;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.projects {
+  height: 100%;
+}
+
+.projectsPair {
+  display: flex;
+  justify-content: space-around;
+
+  gap: 10px;
+  padding: 0 45px;
+}
+
+.container-projects {
+  height: 90%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+.project {
+  padding: 10px;
+  width: 45%;
+  box-shadow: 0px 7px 11px 0 var(--shadow-color);
+  border-radius: 5px;
+  background-color: var(--My-white);
+  cursor: pointer;
+  position: relative
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .6s;
+}
+
+.img-overlay {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
+  object-position: top;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.project p {
+  font-size: 12px;
+  color: var(--shadow-color);
+}
+
+h4 {
+  color: var(--Green-soft);
+}
+
+@media only screen and (max-width: 1100px) {
+  .container-projects {
+    height: 55%;
+    margin-top: 10px;
+    row-gap: 10px;
+  }
+
+  .projectsPair {
+    flex-direction: column;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .projectsPair {
+    padding: 0 10px;
+  }
+  
+  .container-projects {
+    height: 40%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .projectsPair {
+    padding: 0 5px;
+  }
+}

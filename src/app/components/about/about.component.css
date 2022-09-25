@@ -1,0 +1,116 @@
+:root {
+  --Green-dark: rgb(0, 108, 117);
+  --letra-color: rgb(0, 54, 54);
+  --Green-soft: rgb(130, 196, 191);
+  --My-white: rgb(236, 245, 249);
+  --Salmon-soft: rgb(255, 221, 209);
+  --Salmon-dark: rgb(226, 149, 120);
+  --Lila-dark: rgb(139, 107, 255);
+  --Lila-Soft: rgb(187, 166, 255);
+  --bkg-color: #ffffff;
+  --shadow-color: rgb(127, 127, 127);
+  --red: #ff0000;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.about {
+  height: 100%;
+  display: flex;
+  align-items: center; 
+  padding: 0 40px;
+  gap: 10px;
+  text-align: center;
+}
+
+.container-about{
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: left;
+}
+
+.container-about p {
+  color: var(--letra-color);
+  font-size: 16px;
+}
+
+.container-about a {
+  color: var(--Green-dark);
+  background-color: var(--Green-soft);
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: 700;
+  width: 160px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+  height: 40%;
+  position: relative;
+}
+
+.skills i {
+  color: var(--Green-dark);
+}
+
+#center {
+  position: absolute;
+  top: 43%;
+  left: 43%;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: var(--My-white);
+  box-shadow: 0px 2px 2px 0 #001414;
+  animation: spin-rigth 20s linear infinite;
+}
+
+@keyframes spin-rigth {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.iconCircle {
+  background-color: var(--My-white);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px 0 #001414;
+}
+
+#iconCss {
+  transform: translate(0px, -80px);
+}
+#iconJs {
+  transform: translate(-35px, -95px);
+}
+
+#iconNodeJs {
+  transform: translate(35px, -125px);
+}
+
+#iconGit {
+  transform: translate(-45px, -118px);
+}
+
+#iconJava {
+  transform: translate(45px, -146px);
+}
+
+#iconAngular {
+  transform: translate(-21px, -147px);
+}
+
+#iconSass {
+  transform: translate(20px, -175px);
+}
