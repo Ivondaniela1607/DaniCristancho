@@ -48,6 +48,11 @@
   text-align: center;
 }
 
+.container-about a:hover {
+  background-color: var(--Green-dark);
+  color: var(--Green-soft);
+  transition: .5s;
+}
 .skills {
   display: flex;
   width: 60%;
